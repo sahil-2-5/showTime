@@ -58,7 +58,7 @@ const Movie = () => {
         <div className="textstructure font-londrina text-white w-full px-[160px] shadow-red-500">
           <div className="flex justify-between mt-20">
             <h1
-              className="text-[7.5vw] leading-[6.5vw] tracking-widest font-bold text-zinc-200 shadow-red-500"
+              className="text-[5.5vw] leading-[6.5vw] tracking-widest font-bold text-zinc-200 shadow-red-500"
               style={{ textShadow: "4px 4px 0 red" }}
             >
               <motion.div

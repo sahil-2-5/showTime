@@ -73,25 +73,7 @@ const About = () => {
               <p className="font-bold" >Our secure payment system ensures that your financial details are protected, making for a safe and smooth transaction every time.</p>
             </motion.div>
 
-            <motion.div
-              className="bg-transparent bg-opacity-50 p-6 rounded-lg flex flex-col"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-            >
-              <h2 className="text-2xl font-bold mb-4" style={{ textShadow: "2px 2px 0 red" }}>Personal Dashboard</h2>
-              <p className="font-bold" >Track bookings, view ticket history, and explore personalized recommendations, all from your customized dashboard.</p>
-            </motion.div>
-
-            <motion.div
-              className="bg-transparent bg-opacity-50 p-6 rounded-lg flex flex-col"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.7 }}
-            >
-              <h2 className="text-2xl font-bold mb-4" style={{ textShadow: "2px 2px 0 red" }}>Admin Controls</h2>
-              <p  >Cinema managers can effortlessly manage showtimes, seating, and listings with our intuitive admin panel.</p>
-            </motion.div>
+           
           </div>
         </div>
       </div>
